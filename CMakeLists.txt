@@ -8,12 +8,12 @@ include_directories("build/boost/include") # must exist already - run bin/build-
 #
 include_directories("src")
 #
-set(MYMONERO_LIBAPP_CPP "src/submodules/mymonero-libapp-cpp")
+set(MYMONERO_LIBAPP_CPP "src/submodules/mypyrexcoin-libapp-cpp")
 set(MYMONERO_LIBAPP_CPP_SRC "${MYMONERO_LIBAPP_CPP}/src")
 include_directories("${MYMONERO_LIBAPP_CPP_SRC}")
 include_directories("${MYMONERO_LIBAPP_CPP_SRC}/SendFunds/Controllers")
 #
-set(MYMONERO_CORE_CPP "${MYMONERO_LIBAPP_CPP_SRC}/mymonero-core-cpp")
+set(MYMONERO_CORE_CPP "${MYMONERO_LIBAPP_CPP_SRC}/Pyrex-core-cpp")
 set(MYMONERO_CORE_CPP_SRC "${MYMONERO_CORE_CPP}/src")
 include_directories("${MYMONERO_CORE_CPP_SRC}")
 #
