@@ -1,6 +1,6 @@
-[submodule "src/submodules/mymonero-libapp-cpp"]
-	path = src/submodules/mymonero-libapp-cpp
-	url = https://github.com/mymonero/mymonero-libapp-cpp
-[submodule "mymonero-core-js"]
-	path = mymonero-core-js
-	url = https://github.com/mymonero/mymonero-core-js
+[submodule "src/submodules/mypyrexcoin-libapp-cpp"]
+	path = src/submodules/mypyrexcoin-libapp-cpp
+	url = https://github.com/pyrex-coin/mypyrexcoin-libapp-cpp.git
+[submodule "Pyrex-core-js"]
+	path = Pyrex-core-js
+	url = https://github.com/pyrex-coin/Pyrex-core-js.git
