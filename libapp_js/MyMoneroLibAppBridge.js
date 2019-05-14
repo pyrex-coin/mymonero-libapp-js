@@ -35,7 +35,7 @@ module.exports = function(options)
 	options = options || {}
 
 	MyMoneroBridge_utils.update_options_for_fallback_to_asmjs(options)
-	options.asmjs = true;
+
 	const platform_info = MyMoneroBridge_utils.detect_platform();
 	const ENVIRONMENT_IS_WEB = platform_info.ENVIRONMENT_IS_WEB;
 	const ENVIRONMENT_IS_WORKER = platform_info.ENVIRONMENT_IS_WORKER;
